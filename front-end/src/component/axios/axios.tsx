@@ -1,5 +1,6 @@
 import axios from "axios";
 
+axios.defaults.baseURL = "localhost:3000";
 
 export function procGetAxios(url : string, res : any, error : any){
     axios.get(url, {
