@@ -12,7 +12,7 @@ export function procGetAxios(url : string, res : any, error : any){
     .catch(error)
 }
 
-export function procPostAios(url : string, data : any, res : any, error : any){
+export function procPostAxios(url : string, data : any, res : any, error : any){
     axios.post(url, data, {
         headers : {
             'Content-type': 'application/json', 
